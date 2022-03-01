@@ -6,7 +6,6 @@ $allphotos = "SELECT * FROM photos";
 $t_photos = mysqli_query($connection, $allphotos);
 
 $total_photos = mysqli_num_rows($t_photos);
-
 $result_per_page = 3;
 
 $total_pages = ceil($total_photos / $result_per_page);
