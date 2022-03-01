@@ -1,11 +1,21 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+h4 {
+  text-transform: capitalize;
+}
+
 .main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 8px;
 }
 
 img {
-  width: 100%;
+  width: 445px;
+  height: 270px;
 }
 
 .pagination {
