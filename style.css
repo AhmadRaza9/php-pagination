@@ -1,0 +1,27 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.pagination_count {
+  background: grey;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.bg-active {
+  background-color: black;
+}
